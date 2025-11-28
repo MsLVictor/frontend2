@@ -38,8 +38,8 @@ function mostrarMensagens(lista){
             <td>${msg.email}</td>
             <td>${msg.mensagem}</td>
             <td style="white-space: nowrap">
-                <button>Visualizar</button>
-                <button>Excluir</button>
+                <button class="btnVisualizar">Visualizar</button>
+                <button class="btnExcluir">Excluir</button>
             </td>
         `;
         
